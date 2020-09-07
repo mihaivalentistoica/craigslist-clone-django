@@ -8,31 +8,35 @@
   overflow: hidden;
 }
 
-.flex-container{
-	padding: 0;
-	margin: 0;
-	list-style: noen;
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: noen;
 
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
 
-	/* -webkit-flex-flow: row wrap; */
-	justify-content: center;
+  /* -webkit-flex-flow: row wrap; */
+  justify-content: center;
 }
 
-.flex-item{
-	background: tomato;
-	padding: 5px;
-	width: 200px;
-	height: 150px;
-	margin-top: 10px;
+.flex-item {
+  background: tomato;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
 
-	line-height: 150px;
-	color: white;
-	font-weight: bold;
-	font-size: 3em;
-	text-align: center;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+
+.align-center {
+  text-align: center;
 }
